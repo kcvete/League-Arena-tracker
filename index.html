@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arena God Tracker</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Beaufort:wght@400;700&family=Spiegel:wght@400;600&display=swap');
+      
+      body {
+        font-family: 'Spiegel', sans-serif;
+        background-color: #0f172a; /* Slate 900 */
+        color: #f8fafc; /* Slate 50 */
+      }
+      
+      h1, h2, h3, h4, h5, h6 {
+        font-family: 'Beaufort', serif;
+      }
+      
+      /* Custom scrollbar for webkit */
+      
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      
+      ::-webkit-scrollbar-track {
+        background: #0f172a; 
+      }
+      
+      ::-webkit-scrollbar-thumb {
+        background: #334155; 
+        border-radius: 4px;
+      }
+      
+      ::-webkit-scrollbar-thumb:hover {
+        background: #475569; 
+      }
+    </style>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                'lol-gold': '#C89B3C',
+                'lol-gold-dark': '#785A28',
+                'lol-blue': '#0AC8B9',
+                'lol-dark-blue': '#0397AB',
+                'lol-hextech': '#CDFAFA',
+              },
+              fontFamily: {
+                serif: ['Beaufort', 'serif'],
+                sans: ['Spiegel', 'sans-serif'],
+              }
+            }
+          }
+        }
+    </script>
+
+<link rel="stylesheet" href="/index.css">
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/assets/index-DxM1kqw3.js"></script>
+</head>
+  <body>
+    <div id="root"></div>
+</body>
+</html>
